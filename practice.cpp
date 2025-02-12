@@ -12,7 +12,7 @@ static void showcount(){
   cout<<count;
 }
 };
-int test : count;
+int test :: count;
 int main(){
 test t1,t2,t3;
 t1.setcode();
